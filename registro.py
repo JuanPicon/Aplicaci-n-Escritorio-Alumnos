@@ -42,6 +42,7 @@ try:
     print("Conexión a SQL exitosa")
     conexionbase()
     reg_tabla() 
+    print("ok")
 except:
     print("Error101. Error al conectar con MySQL")
         
