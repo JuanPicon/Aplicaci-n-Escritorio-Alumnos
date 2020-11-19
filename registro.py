@@ -45,6 +45,7 @@ try:
     print("ok")
 except:
     print("Error101. Error al conectar con MySQL")
+    print("Verificar contraseña del MySQL")
         
     # ========================== Ventana para Consulta Matricula ===============================  
 class Dialogo2(QDialog):
