@@ -87,7 +87,8 @@ class Dialogo2(QDialog):
         self.lineEditMatricula2.setFixedWidth(238)
         self.lineEditMatricula2.setFixedHeight(26)
         self.lineEditMatricula2.move(40, 1)  
-    
+
+        print("Tabla widget")
         self.tabla2 = QTableWidget(self)
         self.tabla2.resize(460,230)
         self.tabla2.move(20,170)
