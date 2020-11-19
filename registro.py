@@ -52,6 +52,7 @@ class Dialogo2(QDialog):
     def __init__(self):
         QDialog.__init__(self)
         # ========= Diseño para la ventana de Tabla ==================
+        print("Diseño de ventana")
         self.setFixedSize(500, 500)
         self.setWindowTitle("Consultar Alumno")
         self.setWindowIcon(QIcon("iconofacp.png"))
