@@ -17,7 +17,8 @@ def conexionbase():
     try:
         mycursor = conexion.cursor()
         mycursor.execute("USE Estudiantes")
-        print("Conexión a la Base de Datos exitosa")   
+        print("Conexión a la Base de Datos exitosa")
+        print("Conexión a la Base de Datos exitosa")      
     except:
         mycursor = conexion.cursor()
         print("Error102. Error no existe la Base de Datos")
